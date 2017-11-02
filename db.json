@@ -1,0 +1,40 @@
+{
+  "ids": {
+    "User": 2,
+    "Application": 124,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 4,
+    "OAuthAccessToken": 1,
+    "OAuthAuthorizationCode": 1,
+    "OAuthClientApplication": 1,
+    "OAuthPermission": 1,
+    "OAuthScope": 1,
+    "OAuthScopeMapping": 1
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"bob\",\"password\":\"$2a$10$L6WaycKITaVikkd3Fli2UuoTJxt7v9GapayvO9S9dl1htZzlonvLW\",\"email\":\"foo@bar.com\",\"emailVerified\":true,\"name\":\"bob\",\"id\":1}"
+    },
+    "Application": {
+      "123": "{\"id\":\"123\",\"name\":\"demo-app\",\"owner\":\"bob\",\"clientKey\":\"35abff1f0223de78bc5686e2719ec04e4ba43b59\",\"javaScriptKey\":\"a496642e718c309a8c6c1d566df6c2a2aaa21f67\",\"restApiKey\":\"0c59ae14c55fa441d3adf02b2a8f18a00ef55d7b\",\"windowsKey\":\"ab0c7682346df32454486006ae647edc1045a7d5\",\"masterKey\":\"d8bff7b282ffc0f0c522753ba3082af8ed87ad14\",\"authenticationEnabled\":true,\"anonymousAllowed\":true,\"status\":\"sandbox\",\"created\":\"2017-11-01T16:26:19.940Z\",\"modified\":\"2017-11-01T16:26:19.940Z\",\"clientSecret\":\"secret\"}"
+    },
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"Coffee beans (1 kg)\",\"price\":6.5,\"stock\":105,\"id\":1}",
+      "2": "{\"name\":\"Sugar (1 kg)\",\"price\":1.5,\"stock\":892,\"id\":2}",
+      "3": "{\"name\":\"Water (2.5 L)\",\"price\":1.05,\"stock\":15,\"id\":3}"
+    },
+    "OAuthAccessToken": {},
+    "OAuthAuthorizationCode": {},
+    "OAuthClientApplication": {},
+    "OAuthPermission": {},
+    "OAuthScope": {},
+    "OAuthScopeMapping": {}
+  }
+}
